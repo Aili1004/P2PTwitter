@@ -11,17 +11,17 @@
 - The program output should respect the following format for the program to be tested automatically.
 - The user starts his/her own local program by giving his/her unikey, then the program asks his/her current status and lists the status of each participant. More precisely, the user must first start the program by giving his unikey (e.g., bob1234) as a parameter ($ java P2PTwitter bob1234).
 
- - Then the program must immediately ask the user for his/her status by outputting Status: on the next line. After the user type some status (e.g., "Not too bad today.") and ‘Enter’, the program should output the information about the status of other machines, where status lines start with ‘#’ and are followed by the pseudo of the user and his/her unikey (or myself in case of the current user) in parentheses separated by single spaces, then a colon and a space followed by the corresponding status.
+- Then the program must immediately ask the user for his/her status by outputting Status: on the next line. After the user type some status (e.g., "Not too bad today.") and ‘Enter’, the program should output the information about the status of other machines, where status lines start with ‘#’ and are followed by the pseudo of the user and his/her unikey (or myself in case of the current user) in parentheses separated by single spaces, then a colon and a space followed by the corresponding status.
 
- 1. Status: Not too bad today.
- 2. ###P2P tweets###
- 3. #bob (myself): Not too bad today.
- 4. #alice (alic0123): just voted...
- 5. ###End tweets###
+1. Status: Not too bad today.
+2. ###P2P tweets###
+3. #bob (myself): Not too bad today.
+4. #alice (alic0123): just voted...
+5. ###End tweets###
 
- -  The program will be terminated manually by typing Ctrl-C (from a terminal).
+-  The program will be terminated manually by typing Ctrl-C (from a terminal).
 
- - We test application by running it on two or more machines that we can control. The information regarding the participants should be stored in a properties file copied on each participant machine.
+- We test application by running it on two or more machines that we can control. The information regarding the participants should be stored in a properties file copied on each participant machine.
 
 
 
