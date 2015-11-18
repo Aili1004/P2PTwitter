@@ -14,10 +14,10 @@
  - Then the program must immediately ask the user for his/her status by outputting Status: on the next line. After the user type some status (e.g., "Not too bad today.") and ‘Enter’, the program should output the information about the status of other machines, where status lines start with ‘#’ and are followed by the pseudo of the user and his/her unikey (or myself in case of the current user) in parentheses separated by single spaces, then a colon and a space followed by the corresponding status.
 
  1. Status: Not too bad today.
- 2. ### P2P tweets ###
+ 2. ###P2P tweets###
  3. #bob (myself): Not too bad today.
  4. #alice (alic0123): just voted...
- 5. ### End tweets ###
+ 5. ###End tweets###
 
  -  The program will be terminated manually by typing Ctrl-C (from a terminal).
 
