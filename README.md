@@ -17,7 +17,6 @@
  2. ###P2P tweets###
  3. #bob (myself): Not too bad today.
  4. #alice (alic0123): just voted...
- 5. ###End tweets###
 
  -  The program will be terminated manually by typing Ctrl-C (from a terminal).
 
